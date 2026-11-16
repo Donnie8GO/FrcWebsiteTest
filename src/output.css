@@ -162,8 +162,26 @@
   }
 }
 @layer utilities {
+  .h-full {
+    height: 100%;
+  }
+  .w-full {
+    width: 100%;
+  }
   .bg-\[\#000000\] {
     background-color: #000000;
+  }
+  .bg-\[url\(\'\/src\/banner\.png\'\)\] {
+    background-image: url('/src/banner.png');
+  }
+  .bg-cover {
+    background-size: cover;
+  }
+  .bg-center {
+    background-position: center;
+  }
+  .bg-no-repeat {
+    background-repeat: no-repeat;
   }
   .text-4xl {
     font-size: var(--text-4xl);
