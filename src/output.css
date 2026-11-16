@@ -163,6 +163,9 @@
   }
 }
 @layer utilities {
+  .flex {
+    display: flex;
+  }
   .h-64 {
     height: calc(var(--spacing) * 64);
   }
@@ -172,8 +175,17 @@
   .w-full {
     width: 100%;
   }
+  .items-center {
+    align-items: center;
+  }
+  .justify-center {
+    justify-content: center;
+  }
   .bg-\[\#000000\] {
     background-color: #000000;
+  }
+  .bg-\[\#ffffff\] {
+    background-color: #ffffff;
   }
   .bg-\[url\(\'\/src\/banner\.png\'\)\] {
     background-image: url('/src/banner.png');
